@@ -4,7 +4,7 @@ import java.util.Map;
 public class GetMostOccuringCharacter {
     static void mostOccuring(String s) {
         HashMap<Character, Integer> hmap = new HashMap<>();
-        s = s.replaceAll("\\s", "");
+        s = s.replaceAll("\\s", "").toLowerCase();
         for(char c:s.toCharArray()) {
             hmap.put(c,hmap.getOrDefault(c, 0)+1);
         }
