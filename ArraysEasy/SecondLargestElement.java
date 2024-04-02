@@ -20,7 +20,7 @@ Explanation: Since there is only one element in the array, it is the largest and
  Second Largest Element in array 
  1.We will need two variables "largest" and "secondLargest" initialize with Integer.MIN Value.
  2. if the current element of array is larger than largest , then we will update the "largest" and "secondlargest".
- 3. if the current element is not greater than current element but greater than second largest and current element is not equal to largest ,
+ 3. if the current element is not greater than largest but greater than second largest and current element is not equal to largest ,
  then we will update the second largest .
  4.After traversing the whole array , we get the secondlargest element.
  */

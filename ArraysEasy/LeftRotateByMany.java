@@ -3,7 +3,7 @@
  * the task is to rotate the array to the left by 'k' steps, where 'k' is non-negative.
  * 
  * Example:
-'arr '= [1,2,3,4,5]
+'arr '= [1,2,3,4,5] 
 'k' = 1  rotated array = [2,3,4,5,1]
 'k' = 2  rotated array = [3,4,5,1,2]
 'k' = 3  rotated array = [4,5,1,2,3] and so on.
@@ -25,7 +25,7 @@ for left and right rotation , we are taking extra array , so to avoid that we ar
 in which in left rotation case , we reverse the first k elements and reverse the n-k elements and then reverse
 the whole array.
 
-arr=1,2,3,4,5
+arr=1,2,3,4,5   
 rev(k) = 2,1
 rev(n-k) = 5,4,3
 now arr = 2,1,5,4,3
@@ -93,7 +93,7 @@ public class LeftRotateByMany {
     }
 
     public static void main(String args[]) {
-        int arr[] = { 1, 2, 3, 4, 5 };
+        int arr[] = { 1, 2, 3, 4, 5 };  
         int arr2[] = { 1, 2, 3, 4, 5, 6, 7 };
         int arr3[] = { 1, 2, 3, 4, 5 };
         int k = 2;
